@@ -1,3 +1,8 @@
+body{
+    
+}
+
+
 #header{
     display: flex;
     align-items: center;
@@ -31,7 +36,36 @@
 }
 
 #hero{
-    background-image: url(img/eating-dessert.webp);
+    background-image: url(img/Uzg.jpg);
     height: 120vh;
     width: 100%;
+    background-size: cover;
+    background-position: center center;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#hero h1{
+    color:saddlebrown;
+}
+
+#hero p{
+    font-style: italic;
+}
+
+
+#hero button{
+    background-color: orangered;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
 }
