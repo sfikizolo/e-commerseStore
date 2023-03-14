@@ -1,4 +1,5 @@
 body{
+    background-color: blue;
     
 }
 
@@ -8,8 +9,12 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 10px 10px;
-    background: #2e010c;
+    background:yellow;
     box-shadow: 0 5px 15px rgb(34, 7, 1);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 
 #navBar{
@@ -36,10 +41,9 @@ body{
 }
 
 #hero{
-    background-image: url(img/Uzg.jpg);
-    height: 120vh;
+
+    height: 50vh;
     width: 100%;
-    background-size: cover;
     background-position: center center;
     padding: 0 80px;
     display: flex;
@@ -57,6 +61,11 @@ body{
 }
 
 
+#hero p{
+    font-style: italic;
+}
+
+
 #hero button{
     background-color: orangered;
     border: none;
@@ -68,4 +77,24 @@ body{
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 16px;
+}
+
+#feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#feature .online-box .img{
+    display: contents;
+}
+
+#feature .free-box{
+    
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgb(0, 0, 0, 0.03);
+    border: 1px solid wheat;
 }
