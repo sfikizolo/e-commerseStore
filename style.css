@@ -1,5 +1,6 @@
 body{
     background-color: #200c00;
+    flex-wrap: wrap;
     
 }
 
@@ -15,6 +16,7 @@ body{
     position: sticky;
     top: 0;
     left: 0;
+  
 }
 
 #navBar{
@@ -79,6 +81,13 @@ body{
     border-radius: 16px;
 }
 
+#product .cookie-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
 #product{
     text-align: center;
 }
@@ -118,4 +127,16 @@ body{
     font-size: 15px;
     font-weight: 700;
     color: rgb(134, 11, 108);
+}
+
+#product .first a{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #f8f4f8;
+    font-weight: 500;
+    color: aqua;
+    border: 1px solid cornflowerblue;
+   
 }
